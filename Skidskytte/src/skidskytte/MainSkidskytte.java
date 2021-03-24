@@ -12,14 +12,14 @@ public class MainSkidskytte extends Points{
 		int choice = Integer.valueOf(sc.nextLine());
 		switch (choice) {
 		case 1:
-			System.out.println("--> 1. Skriv en poäng (1-32,34,36,38,40,43,48,54,60) som omvandlas till placering: (Använd mellanslag mellan orden)");
+			System.out.println("--> 1. Skriv en poäng (1-32,34,36,38,40,43,48,54,60) omvandlas till placering: (Använd mellanslag mellan sifforna)");
 			String input = sc.nextLine();
 			String result = translator.PointsTabToPlace(input);
 			System.out.println("--> Omvandling till poäng blir: \n" + result);
 			break;
 					
 		case 2:
-			System.out.println("--> 2. Skriv en placering (1-40) (Ha mellanslag mellan varje \"bokstav\") (använd | för mellanrum mellan orden.)");
+			System.out.println("--> 2. Skriv en placering (1-40) omvandlas till poäng. (Använd mellanslag mellan siffrorna.)");
 			input = sc.nextLine();
 			result = translator.PlaceToPointsTab(input);
 			System.out.println("--> Översättning till placering blir:\n" + result);
