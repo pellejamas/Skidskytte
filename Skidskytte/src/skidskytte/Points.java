@@ -22,10 +22,11 @@ public class Points {
 	}
 
 	public int[] PlaceToPointsTab(int input) {
-		for (int i = 0; i < swap2.length; i++) {
-			swap2[i] = pointsTab[i];
-			input = pointsTab[i];
-		}
-		return swap2;
-	}
+		for (int i = 0; i < swap2.length; i++) 
+			swap2[i] = place[i];
+			input = pointsTab[input];
+			//input = pointsTab[i];
+		//}
+			return swap2;
+		}	
 }
