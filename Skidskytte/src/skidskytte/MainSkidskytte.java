@@ -8,7 +8,7 @@ public class MainSkidskytte{
 		Scanner sc = new Scanner(System.in);
 		Points translator = new Points();		
 		System.out.println("Du har 3 alternativ:");
-		System.out.println("1. Översätta poäng till placering.\n2. Omvandla placcering till poäng. \n3. Avsluta programet! ");
+		System.out.println("1. Placering till poäng.\n2. Poäng till placering. \n3. Avsluta programet! ");
 		int choice = Integer.valueOf(sc.nextLine());
 		switch (choice) {
 		case 1:
